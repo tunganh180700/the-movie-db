@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return (
     <div className="absolute bottom-0 w-full bg-blue-950 flex justify-center items-center">
-      <div className="flex items-end gap-x-10 w-[50%] pb-20 pt-14">
+      <div className="flex items-end gap-x-10 w-[1000px] pb-20 pt-14">
         <div className="w-[200px]">
           <div className="flex justify-end pb-14">
             <img
@@ -11,14 +11,17 @@ const Footer = () => {
               width="130"
             />
           </div>
-          <div className="font-bold bg-white flex justify-center items-center rounded-md " style={{ color: "#ADD8E6" }}>
-            <a href="#" className="p-2">
+          <div
+            className="font-bold bg-white flex justify-center items-center rounded-md whitespace-nowrap"
+            style={{ color: "#ADD8E6" }}
+          >
+            <a href="#" className="sm:p-2 p-2">
               JOIN THE COMUNITY
             </a>
           </div>
         </div>
-        <div className="text-white flex gap-x-10 ">
-          <div className="">
+        <div className="text-white flex gap-x-10 whitespace-nowrap">
+          <div>
             <h3 className="font-bold">THE BASICS</h3>
             <div>
               <a href="#">About TMDB</a>
